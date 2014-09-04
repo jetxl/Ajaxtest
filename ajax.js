@@ -3,6 +3,7 @@ var xmlhttp=new XMLHttpRequest();
 function clicktest()
 {
 	//alert("hello");
+	//这里是测试的一行代码
 	/*
 readyState 	
 存有 XMLHttpRequest 的状态。从 0 到 4 发生变化。
@@ -26,5 +27,6 @@ status
 	//xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 	//xmlhttp.send("fname=Bill&lname=Gates");
 	xmlhttp.send();
+	alert("test git");
 }
 
